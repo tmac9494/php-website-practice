@@ -56,7 +56,9 @@ include 'inc/header.php'; ?>
 					<th>Year</th>
 					<td><?php echo $item["year"]; ?></td>
 				</tr>
+
 				<?php if (strtolower($item["category"]) == "books") { ?>
+
 					<tr>
 						<th>Authours</th>
 						<td><?php echo implode("</br> ",$item["authors"]); ?></td>
@@ -71,6 +73,7 @@ include 'inc/header.php'; ?>
 					</tr>
 
 				<?php } else if (strtolower($item["category"]) == "movies") { ?>
+
 					<tr>
 						<th>Director</th>
 						<td><?php echo $item["director"]; ?></td>
@@ -83,7 +86,9 @@ include 'inc/header.php'; ?>
 						<th>Stars</th>
 						<td><?php echo implode("</br> ",$item["stars"]); ?></td>
 					</tr>
+
 				<?php } else if (strtolower($item["category"]) == "music") { ?>
+				
 					<tr>
 						<th>Artist</th>
 						<td><?php echo $item["artist"]; ?></td>
