@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// $mail->Host = gethostbyname('smtp.gmail.com');
 	// if your network does not support SMTP over IPv6
 	//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-	$mail->Port = '587';
+	$mail->Port = 587;
 	//Set the encryption system to use - ssl (deprecated) or tls
 	$mail->SMTPSecure = 'tls';
 	//Whether to use SMTP authentication
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	//Username to use for SMTP authentication - use full email address for gmail
 	$mail->Username = "trentmcdole94@gmail.com";
 	//Password to use for SMTP authentication
-	$mail->Password = "mauauyakhakvebex";
+	$mail->Password = "aatvpavyqcmadsru";
 
         //It's important not to use the submitter's address as the from address as it's forgery,
         //which will cause your messages to fail SPF checks.
