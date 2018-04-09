@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	//Username to use for SMTP authentication - use full email address for gmail
 	$mail->Username = "trentmcdole94@gmail.com";
 	//Password to use for SMTP authentication
-	$mail->Password = "aatvpavyqcmadsru";
+	$mail->Password = "";
 
         //It's important not to use the submitter's address as the from address as it's forgery,
         //which will cause your messages to fail SPF checks.
